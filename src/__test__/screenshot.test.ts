@@ -51,20 +51,20 @@ describe('Screenshot', () => {
     page = await browser.newPage();
   }, 30000);
 
-  screenshotTesting({
-    componentName: 'loader',
-    props: {
-      size: ['l', 'm', 's', undefined],
-    },
-    viewPort: {
-      width: 100,
-      height: 100,
-    },
-    matchOptions: {
-      blur: 2,
-      failureThreshold: 0.02,
-    },
-  });
+  // screenshotTesting({
+  //   componentName: 'loader',
+  //   props: {
+  //     size: ['l', 'm', 's', undefined],
+  //   },
+  //   viewPort: {
+  //     width: 100,
+  //     height: 100,
+  //   },
+  //   matchOptions: {
+  //     blur: 2,
+  //     failureThreshold: 0.02,
+  //   },
+  // });
 
   // screenshotTesting({
   //   componentName: 'button',

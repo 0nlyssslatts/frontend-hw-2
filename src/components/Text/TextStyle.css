@@ -1,0 +1,59 @@
+/* .text{
+    font-family: Roboto;
+} */
+
+.button {
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0%;
+}
+
+.title {
+  font-size: 44px;
+  line-height: 48px;
+  letter-spacing: 0%;
+}
+
+.p-20 {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+.p-18 {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+
+.p-16 {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.p-14 {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0%;
+}
+
+.text-normal {
+  font-weight: normal;
+}
+.text-medium {
+  font-weight: medium;
+}
+.text-bold {
+  font-weight: bold;
+}
+
+.text-primary {
+  color: var(--text-primary);
+}
+.text-secondary {
+  color: var(--text-secondary);
+}
+.text-accent {
+  color: var(--text-accent);
+}
